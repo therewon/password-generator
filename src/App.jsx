@@ -80,7 +80,7 @@ function App() {
               checked={includeLowercase}
               onChange={() => setIncludeLowercase(!includeLowercase)}
             />
-            Kiçik hərflər
+            Small Alphabet
           </label>
 
           <label>
@@ -89,7 +89,7 @@ function App() {
               checked={includeNumbers}
               onChange={() => setIncludeNumbers(!includeNumbers)}
             />
-            Rəqəmlər
+            Numbers
           </label>
 
           <label>
@@ -98,7 +98,7 @@ function App() {
               checked={includeSymbols}
               onChange={() => setIncludeSymbols(!includeSymbols)}
             />
-            Simvollar
+            Symbols
           </label>
         </div>
 
