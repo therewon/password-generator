@@ -1,16 +1,69 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive password generator built with **Vite** and **React**.  
+This project allows users to generate secure passwords based on selected options such as password length, uppercase letters, lowercase letters, numbers, and symbols.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generate random passwords
+- Choose password length
+- Include uppercase letters
+- Include lowercase letters
+- Include numbers
+- Include symbols
+- Copy generated password to clipboard
+- Clean and responsive user interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Vite**
+- **React**
+- **JavaScript**
+- **CSS**
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/password-generator.git
+2. Navigate to the project folder
+cd password-generator
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
+Project Structure
+password-generator/
+│── public/
+│── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│── package.json
+│── vite.config.js
+│── README.md
+How It Works
+
+The user selects the desired password options, including:
+
+password length
+
+character types
+
+After clicking the Generate Password button, the app creates a random password based on the selected settings.
+The generated password can also be copied instantly using the Copy button.
+
+Future Improvements
+
+Add password strength meter
+
+Add show/hide password option
+
+Ensure at least one character from each selected option
+
+Save user preferences with localStorage
+
+Improve UI with Tailwind CSS
